@@ -36,10 +36,10 @@ public class Calculator {
                 System.out.println("Output");
 
                 switch (operator) {
-                    case "+" -> Transform.transformProst(Operations.plus(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
-                    case "-" -> Transform.transformProst(Operations.minus(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
-                    case "*" -> Transform.transformProst(Operations.multiply(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
-                    case "/" -> Transform.transformProst(Operations.divide(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
+                    case "+" -> Transform.transformDo10(Operations.plus(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
+                    case "-" -> Transform.transformDo10(Operations.minus(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
+                    case "*" -> Transform.transformDo10(Operations.multiply(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
+                    case "/" -> Transform.transformDo10(Operations.divide(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
                     default -> throw new IllegalArgumentException("Invalid operator");
                 }
             }

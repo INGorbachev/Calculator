@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae5fb70-443b-45ac-8317-98a4348f258a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConvertEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Transform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/Transform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Transform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transform.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +56,18 @@
       <option name="presentableId" value="Default" />
       <updated>1615981255493</updated>
     </task>
+    <task id="LOCAL-00001" summary="Calculatorrr">
+      <created>1616340813010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616340813023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Calculatorrr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculatorrr" />
   </component>
 </project>

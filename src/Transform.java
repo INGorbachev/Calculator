@@ -1,58 +1,61 @@
-// Переводим результат вычисления Римских цифр из Арабской
 public class Transform {
-    public static void transformProst(int x) {
-        String prost;
+
+    public static void transformDo10(int x) {
+        String do10;
         if (Operations.result % 10 == 1) {
-            prost = "I";
-            transformDes(prost);
+            do10 = "I";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 2) {
-            prost = "II";
-            transformDes(prost);
+            do10 = "II";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 3) {
-            prost = "III";
-            transformDes(prost);
+            do10 = "III";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 4) {
-            prost = "IV";
-            transformDes(prost);
+            do10 = "IV";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 5) {
-            prost = "V";
-            transformDes(prost);
+            do10 = "V";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 6) {
-            prost = "VI";
-            transformDes(prost);
+            do10 = "VI";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 7) {
-            prost = "VII";
-            transformDes(prost);
+            do10 = "VII";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 8) {
-            prost = "VIII";
-            transformDes(prost);
+            do10 = "VIII";
+            transformBolshe10(do10);
         } else if (Operations.result % 10 == 9) {
-            prost = "IX";
-            transformDes(prost);
-        } else if (Operations.result == 100)
+            do10 = "IX";
+            transformBolshe10(do10);
+        } else if (Operations.result  == 100) {
             System.out.println("C");
+        }
 
     }
 
-    public static void transformDes(String prost) {
-        if (Operations.result / 10 % 10 == 1) {
-            System.out.println("X" + prost);
+    public static void transformBolshe10(String do10) {
+        if (Operations.result / 10 % 10 == 0) {
+            System.out.println(do10);
+        } else if (Operations.result / 10 % 10 == 1) {
+            System.out.println("X" + do10);
         } else if (Operations.result / 10 % 10 == 2) {
-            System.out.println("XX" + prost);
+            System.out.println("XX" + do10);
         } else if (Operations.result / 10 % 10 == 3) {
-            System.out.println("XXX" + prost);
+            System.out.println("XXX" + do10);
         } else if (Operations.result / 10 % 10 == 4) {
-            System.out.println("XL" + prost);
+            System.out.println("XL" + do10);
         } else if (Operations.result / 10 % 10 == 5) {
-            System.out.println("L" + prost);
+            System.out.println("L" + do10);
         } else if (Operations.result / 10 % 10 == 6) {
-            System.out.println("LX" + prost);
+            System.out.println("LX" + do10);
         } else if (Operations.result / 10 % 10 == 7) {
-            System.out.println("LXX" + prost);
+            System.out.println("LXX" + do10);
         } else if (Operations.result / 10 % 10 == 8) {
-            System.out.println("LXXX" + prost);
+            System.out.println("LXXX" + do10);
         } else if (Operations.result / 10 % 10 == 9) {
-            System.out.println("XC" + prost);
+            System.out.println("XC" + do10);
         }
     }
 }
