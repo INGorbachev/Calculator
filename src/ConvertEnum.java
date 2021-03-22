@@ -22,12 +22,14 @@ public class ConvertEnum {
             this.arab = arab;
 
         }
-        public String getRome(){
+
+        public String getRome() {
             return rome;
         }
+
         public int getArab() {
             return arab;
-            }
+        }
 
         static int toInt(String rome) {
             for (RomanNumeral i : RomanNumeral.values())

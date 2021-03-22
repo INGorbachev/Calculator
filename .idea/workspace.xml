@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae5fb70-443b-45ac-8317-98a4348f258a" name="Default Changelist" comment="">
+    <list default="true" id="bae5fb70-443b-45ac-8317-98a4348f258a" name="Default Changelist" comment="Exceptions doesn't work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Calculator/Transform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Transform.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConvertEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConvertEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transform.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +64,31 @@
       <option name="project" value="LOCAL" />
       <updated>1616340813023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exceptions doesn't work">
+      <created>1616356157132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616356157132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculatorrr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculatorrr" />
+    <MESSAGE value="Exceptions doesn't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions doesn't work" />
   </component>
 </project>

@@ -8,15 +8,17 @@ public class Operations {
         return result;
     }
 
-    public static int minus(int arab1, int arab2){
+    public static int minus(int arab1, int arab2) {
         result = arab1 - arab2;
         return result;
     }
-    public static int multiply(int arab1, int arab2){
+
+    public static int multiply(int arab1, int arab2) {
         result = arab1 * arab2;
         return result;
     }
-    public static int divide(int arab1, int arab2){
+
+    public static int divide(int arab1, int arab2) {
         result = arab1 / arab2;
         return result;
     }

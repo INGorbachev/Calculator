@@ -29,7 +29,7 @@ public class Transform {
         } else if (Operations.result % 10 == 9) {
             do10 = "IX";
             transformBolshe10(do10);
-        } else if (Operations.result  == 100) {
+        } else if (Operations.result == 100) {
             System.out.println("C");
         }
 

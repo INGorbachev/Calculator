@@ -8,7 +8,7 @@ public class Calculator {
 
         String operator;
 
-        if(scanner.hasNextInt()) {
+        if (scanner.hasNextInt()) {
             int arab1 = scanner.nextInt();
             operator = scanner.next();
             int arab2 = scanner.nextInt();
@@ -17,7 +17,7 @@ public class Calculator {
 
             System.out.println("Output");
 
-            if ((arab1 > 0 && arab1 <= 10) & (arab2 > 0 && arab2 <= 10)) {
+            if (((arab1 > 0 && arab1 <= 10) & (arab2 > 0 && arab2 <= 10))) {
                 switch (operator) {
                     case "+" -> System.out.println(Operations.plus(arab1, arab2));
                     case "-" -> System.out.println(Operations.minus(arab1, arab2));
@@ -25,9 +25,10 @@ public class Calculator {
                     case "/" -> System.out.println(Operations.divide(arab1, arab2));
                     default -> throw new IllegalArgumentException("Invalid operator");
                 }
-            }
+            } else throw new IllegalArgumentException("Invalid number");
 
-            } else {
+
+        } else {
             if (scanner.hasNext()) {
                 String rome1 = scanner.next();
                 operator = scanner.next();
@@ -45,8 +46,8 @@ public class Calculator {
             }
         }
 
-        }
     }
+}
 
 
 
