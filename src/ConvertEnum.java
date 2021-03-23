@@ -24,10 +24,12 @@ public class ConvertEnum {
         }
 
         public String getRome() {
+
             return rome;
         }
 
         public int getArab() {
+
             return arab;
         }
 
@@ -35,7 +37,7 @@ public class ConvertEnum {
             for (RomanNumeral i : RomanNumeral.values())
                 if (i.getRome().equals(rome))
                     return i.getArab();
-            return 0;
+            throw new IllegalArgumentException("Invalid Roman number");
         }
     }
 }
