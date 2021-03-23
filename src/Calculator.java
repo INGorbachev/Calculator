@@ -25,7 +25,7 @@ public class Calculator {
                     case "/" -> System.out.println(Operations.divide(arab1, arab2));
                     default -> throw new IllegalArgumentException("Invalid operator");
                 }
-            } else throw new IllegalArgumentException("Invalid number");
+            } else throw new IllegalArgumentException("Invalid number: Input (1-10)");
 
 
         } else {

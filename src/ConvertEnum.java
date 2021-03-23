@@ -37,7 +37,7 @@ public class ConvertEnum {
             for (RomanNumeral i : RomanNumeral.values())
                 if (i.getRome().equals(rome))
                     return i.getArab();
-            throw new IllegalArgumentException("Invalid Roman number");
+            throw new IllegalArgumentException("Invalid Roman number: Input (I-X)");
         }
     }
 }
