@@ -2,7 +2,9 @@ public class Transform {
 
     public static void transformDo10(int x) {
         String do10;
-        if (Operations.result % 10 == 1) {
+        if (Operations.result == 100) {
+            System.out.println("C");
+        } else if (Operations.result % 10 == 1) {
             do10 = "I";
             transformBolshe10(do10);
         } else if (Operations.result % 10 == 2) {
@@ -57,8 +59,6 @@ public class Transform {
             System.out.println("LXXX" + do10);
         } else if (Operations.result / 10 % 10 == 9) {
             System.out.println("XC" + do10);
-        } else if (Operations.result == 100) {
-            System.out.println("C");
         }
     }
 }
