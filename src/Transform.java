@@ -29,8 +29,9 @@ public class Transform {
         } else if (Operations.result % 10 == 9) {
             do10 = "IX";
             transformBolshe10(do10);
-        } else if (Operations.result == 100) {
-            System.out.println("C");
+        } else if (Operations.result % 10 == 0) {
+            do10 = "";
+            transformBolshe10(do10);
         }
 
     }
@@ -56,6 +57,8 @@ public class Transform {
             System.out.println("LXXX" + do10);
         } else if (Operations.result / 10 % 10 == 9) {
             System.out.println("XC" + do10);
+        } else if (Operations.result == 100) {
+            System.out.println("C");
         }
     }
 }

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae5fb70-443b-45ac-8317-98a4348f258a" name="Default Changelist" comment="Changed Exception messages">
+    <list default="true" id="bae5fb70-443b-45ac-8317-98a4348f258a" name="Default Changelist" comment="Ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/Calculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transform.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616504655787</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Exception on 1 arabic 2 roman">
+      <created>1616507942468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616507942468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +118,8 @@
     <MESSAGE value="Added Exception on invalid numbers (1 - 10)" />
     <MESSAGE value="Added Exception on invalid numbers (I - X)" />
     <MESSAGE value="Changed Exception messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Exception messages" />
+    <MESSAGE value="Added Exception on 1 arabic 2 roman" />
+    <MESSAGE value="Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok" />
   </component>
 </project>
