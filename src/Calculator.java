@@ -11,22 +11,22 @@ public class Calculator {
         if (scanner.hasNextInt()) {
             int arab1 = scanner.nextInt();
             operator = scanner.next();
-            int arab2 = scanner.nextInt();
-            scanner.close();
+            if (scanner.hasNextInt()) {
+                int arab2 = scanner.nextInt();
+                scanner.close();
 
+                System.out.println("Output");
 
-            System.out.println("Output");
-
-            if (((arab1 > 0 && arab1 <= 10) & (arab2 > 0 && arab2 <= 10))) {
-                switch (operator) {
-                    case "+" -> System.out.println(Operations.plus(arab1, arab2));
-                    case "-" -> System.out.println(Operations.minus(arab1, arab2));
-                    case "*" -> System.out.println(Operations.multiply(arab1, arab2));
-                    case "/" -> System.out.println(Operations.divide(arab1, arab2));
-                    default -> throw new IllegalArgumentException("Invalid operator");
-                }
-            } else throw new IllegalArgumentException("Invalid number: Input (1-10)");
-
+                if (((arab1 > 0 && arab1 <= 10) & (arab2 > 0 && arab2 <= 10))) {
+                    switch (operator) {
+                        case "+" -> System.out.println(Operations.plus(arab1, arab2));
+                        case "-" -> System.out.println(Operations.minus(arab1, arab2));
+                        case "*" -> System.out.println(Operations.multiply(arab1, arab2));
+                        case "/" -> System.out.println(Operations.divide(arab1, arab2));
+                        default -> throw new IllegalArgumentException("Invalid operator");
+                    }
+                } else throw new IllegalArgumentException("Invalid  1 number: Input (1-10)");
+            } else throw new IllegalArgumentException("Invalid  2 number: Input (1-10)");
 
         } else {
             if (scanner.hasNext()) {
@@ -41,7 +41,7 @@ public class Calculator {
                     case "-" -> Transform.transformDo10(Operations.minus(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
                     case "*" -> Transform.transformDo10(Operations.multiply(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
                     case "/" -> Transform.transformDo10(Operations.divide(ConvertEnum.RomanNumeral.toInt(rome1), ConvertEnum.RomanNumeral.toInt(rome2)));
-                    default -> throw new IllegalArgumentException("Invalid operator");
+                    default -> throw new IllegalArgumentException("Invalid operator: Input (+-*/)");
                 }
             }
         }
